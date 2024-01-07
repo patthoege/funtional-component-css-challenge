@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./css/NavBarSimple.module.css";
-
+import "./css/NavBarSimple.module.css";
 
 class NavBarSimple extends React.Component {
 
@@ -25,10 +25,10 @@ class NavBarSimple extends React.Component {
 
     render() {
         return (
-            <div className="{css.NavBar}">
+            <div className={css.NavBar}>
                 <h1>My Gallery </h1>
                 <span>
-                {this.state.message}
+                    {this.state.message}
                 </span>
                 <button onClick={() => this.handleClick()}>
                     {this.state.buttonText}

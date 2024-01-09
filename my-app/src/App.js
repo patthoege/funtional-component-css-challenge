@@ -9,7 +9,8 @@ import css from './App.module.css';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+// import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import NavBarForm from "./components/NavBarForm"
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       {/* <ConditionalRenderingClass /> */}
       {/* <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
-      <MethodsAsPropsParent />
+      {/* <MethodsAsPropsParent /> */}
+      <NavBarForm />
     </div>
   );
 }

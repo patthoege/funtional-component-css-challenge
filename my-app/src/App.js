@@ -13,6 +13,7 @@ import css from './App.module.css';
 import NavBarForm from "./components/NavBarForm"
 // import RenderingLists from './components/RenderingLists';
 import Content from './components/Content'
+import Clock from "./components/Clock";
 
 
 function App() {
@@ -30,9 +31,10 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      <NavBarForm />
+      {/* <NavBarForm /> */}
       {/* <RenderingLists /> */}
-      <Content />
+      {/* <Content /> */}
+      <Clock />
     </div>
   );
 }

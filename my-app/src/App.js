@@ -1,15 +1,16 @@
 import css from './App.module.css';
-import EventClass from './components/EventClass';
-import EventsFunctional from './components/EventsFunctional';
-
+// import EventClass from './components/EventClass';
+// import EventsFunctional from './components/EventsFunctional';
 // import Sidebar from './components/Sidebar';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import NavBarSimple from './components/NavBarSimple';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import NestingComponents from './components/NestingComponents';
+// import NavBarSimple from './components/NavBarSimple';
+// import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+// import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+// import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <EventClass /> */}
       {/* <ConditionalRenderingClass /> */}
       {/* <ConditionalRenderingFunctional connected={false} /> */}
-      <NestingComponents />
+      {/* <NestingComponents /> */}
+      <MethodsAsPropsParent />
     </div>
   );
 }

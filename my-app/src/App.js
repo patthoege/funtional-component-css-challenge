@@ -10,10 +10,11 @@ import css from './App.module.css';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-import NavBarForm from "./components/NavBarForm"
+// import NavBarForm from "./components/NavBarForm"
 // import RenderingLists from './components/RenderingLists';
-import Content from './components/Content'
-import Clock from "./components/Clock";
+// import Content from './components/Content'
+// import Clock from "./components/Clock";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
       {/* <NavBarForm /> */}
       {/* <RenderingLists /> */}
       {/* <Content /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <LifeCyclesCDM />
     </div>
   );
 }

@@ -14,7 +14,8 @@ import css from './App.module.css';
 // import RenderingLists from './components/RenderingLists';
 // import Content from './components/Content'
 // import Clock from "./components/Clock";
-import LifeCyclesCDM from "./components/LifeCyclesCDM";
+// import LifeCyclesCDM from "./components/LifeCyclesCDM";
+import LifeCyclesCDU from "./components/LifeCyclesCDU";
 
 
 function App() {
@@ -36,7 +37,9 @@ function App() {
       {/* <RenderingLists /> */}
       {/* <Content /> */}
       {/* <Clock /> */}
-      <LifeCyclesCDM />
+      {/* <LifeCyclesCDM /> */}
+      <LifeCyclesCDU />
+
     </div>
   );
 }

@@ -15,7 +15,8 @@ import css from './App.module.css';
 // import Content from './components/Content'
 // import Clock from "./components/Clock";
 // import LifeCyclesCDM from "./components/LifeCyclesCDM";
-import LifeCyclesCDU from "./components/LifeCyclesCDU";
+// import LifeCyclesCDU from "./components/LifeCyclesCDU";
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
 
 
 function App() {
@@ -38,8 +39,8 @@ function App() {
       {/* <Content /> */}
       {/* <Clock /> */}
       {/* <LifeCyclesCDM /> */}
-      <LifeCyclesCDU />
-
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
     </div>
   );
 }

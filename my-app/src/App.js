@@ -13,7 +13,8 @@ import css from './App.module.css';
 // import NavBarForm from "./components/NavBarForm"
 // import RenderingLists from './components/RenderingLists';
 // import Content from './components/Content'
-import ControlledForm from './components/ControlledForm';
+// import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 // import Clock from "./components/Clock";
 // import LifeCyclesCDM from "./components/LifeCyclesCDM";
 // import LifeCyclesCDU from "./components/LifeCyclesCDU";
@@ -42,7 +43,8 @@ function App() {
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      <UncontrolledForm />
     </div>
   );
 }

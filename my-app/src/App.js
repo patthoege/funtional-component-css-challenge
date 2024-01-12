@@ -1,4 +1,5 @@
 import css from './App.module.css';
+import SearchBar from './components/SearchBar';
 // import EventClass from './components/EventClass';
 // import EventsFunctional from './components/EventsFunctional';
 // import Sidebar from './components/Sidebar';
@@ -14,7 +15,7 @@ import css from './App.module.css';
 // import RenderingLists from './components/RenderingLists';
 // import Content from './components/Content'
 // import ControlledForm from './components/ControlledForm';
-import UncontrolledForm from './components/UncontrolledForm';
+// import UncontrolledForm from './components/UncontrolledForm';
 // import Clock from "./components/Clock";
 // import LifeCyclesCDM from "./components/LifeCyclesCDM";
 // import LifeCyclesCDU from "./components/LifeCyclesCDU";
@@ -44,7 +45,8 @@ function App() {
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
-      <UncontrolledForm />
+      {/* <UncontrolledForm /> */}
+      <SearchBar />
     </div>
   );
 }

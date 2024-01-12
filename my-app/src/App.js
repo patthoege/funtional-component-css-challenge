@@ -1,6 +1,7 @@
 import css from './App.module.css';
-import ClassCounter from "./components/ClassCounter";
-import HooksCounter from './components/HooksCounter';
+import ControlledFormHooks from "./components/ControlledFormHooks";
+// import ClassCounter from "./components/ClassCounter";
+// import HooksCounter from './components/HooksCounter';
 // import SearchBar from './components/SearchBar';
 // import EventClass from './components/EventClass';
 // import EventsFunctional from './components/EventsFunctional';
@@ -49,8 +50,9 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
       {/* <SearchBar /> */}
-      <HooksCounter />
-      <ClassCounter />
+      {/* <HooksCounter /> */}
+      {/* <ClassCounter /> */}
+      <ControlledFormHooks />
     </div>
   );
 }

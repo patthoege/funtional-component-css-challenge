@@ -4,12 +4,14 @@ import {savedPosts} from "../posts.json";
 import PostItem from "./PostItem";
 import Loader from "./Loader";
 
+
 export class Content extends Component {
     constructor(props) {
       super(props)
         
       this.state = {
-        isLoaded: false
+        isLoaded: false,
+        posts: ''
         }
     }
 
@@ -18,15 +20,37 @@ export class Content extends Component {
         setTimeout(()=>{
             this.setState({
                 isLoaded: true,
+                posts: savedPosts,
             })
         }, 2000)
-    }    
+    }  
+    
+    handleChange = (event) => {
+        const name = event.target.value.toLowerCase()
+        console.log(name)
+        const filteredPost = savedPosts.filter(post => {
+          return post.name.toLowerCase().includes(name)
+      })
+       
+      this.setState({
+        posts: filteredPost
+    })
+    }
 
     render() {
         return (
             <div className={css.Content}>
                 <div className={css.TitleBar}> 
                     <h1>My Photos</h1>
+                    <form>
+                    <input
+                        id="searchInput"
+                        onChange={(event) => this.handleChange(event)}
+                        type="search"
+                        placeholder="search names..."
+                    />
+                       <h4>posts found {this.state.posts.length}</h4>
+                    </form>
                 </div>
                 <div className={css.SearchResults}>
                     
@@ -51,7 +75,7 @@ export class Content extends Component {
                     {/* Loader Challenge: render the PostItem component vs the Loader component based on the state of isLoaded */}
                     {
                         this.state.isLoaded ?
-                        <PostItem savedPosts={savedPosts} />
+                        <PostItem savedPosts={this.state.posts} />
                         : <Loader />
                     }
 

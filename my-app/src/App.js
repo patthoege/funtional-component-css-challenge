@@ -2,7 +2,7 @@ import css from './App.module.css';
 import SearchBar from './components/SearchBar';
 // import EventClass from './components/EventClass';
 // import EventsFunctional from './components/EventsFunctional';
-// import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
@@ -11,9 +11,9 @@ import SearchBar from './components/SearchBar';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-// import NavBarForm from "./components/NavBarForm"
+import NavBarForm from "./components/NavBarForm"
 // import RenderingLists from './components/RenderingLists';
-// import Content from './components/Content'
+import Content from './components/Content'
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import Clock from "./components/Clock";
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className={css.App}>
     {/* Add your components here */}
-      {/* <Sidebar /> */}
+      <Sidebar />
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="Mike"/> */}
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
@@ -37,16 +37,16 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      {/* <NavBarForm /> */}
+      <NavBarForm />
       {/* <RenderingLists /> */}
-      {/* <Content /> */}
+      <Content />
       {/* <Clock /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
     </div>
   );
 }

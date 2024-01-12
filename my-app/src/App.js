@@ -1,5 +1,6 @@
 import css from './App.module.css';
-import UseStateWithArrays from "./components/UseStateWithArrays";
+import UseStateWithObjects from "./components/UseStateWithObjects";
+// import UseStateWithArrays from "./components/UseStateWithArrays";
 // import ControlledFormHooks from "./components/ControlledFormHooks";
 // import ClassCounter from "./components/ClassCounter";
 // import HooksCounter from './components/HooksCounter';
@@ -54,7 +55,8 @@ function App() {
       {/* <HooksCounter /> */}
       {/* <ClassCounter /> */}
       {/* <ControlledFormHooks /> */}
-      <UseStateWithArrays />
+      {/* <UseStateWithArrays /> */}
+      <UseStateWithObjects />
     </div>
   );
 }

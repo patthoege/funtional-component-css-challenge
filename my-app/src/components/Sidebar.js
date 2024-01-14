@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import css from "./css/Sidebar.module.css";
 
 function Sidebar() {
@@ -9,7 +9,6 @@ function Sidebar() {
             <a href="#" target="_blank"> My Paintings</a>
         </div>
     )
-
 };
 
 export default Sidebar

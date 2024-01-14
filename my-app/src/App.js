@@ -1,7 +1,7 @@
 import css from './App.module.css';
 // import ClassCounterUseEffect from "./components/ClassCounterUseEffect";
 // import UseEffectCounter from './components/UseEffectCounter';
-import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import UseStateWithObjects from "./components/UseStateWithObjects";
 // import UseStateWithArrays from "./components/UseStateWithArrays";
 // import ControlledFormHooks from "./components/ControlledFormHooks";
@@ -10,7 +10,7 @@ import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import SearchBar from './components/SearchBar';
 // import EventClass from './components/EventClass';
 // import EventsFunctional from './components/EventsFunctional';
-// import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
@@ -19,7 +19,8 @@ import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-// import NavBarForm from "./components/NavBarForm"
+import NavBarForm from "./components/NavBarForm"
+import ContentHooks from './components/ContentHooks';
 // import RenderingLists from './components/RenderingLists';
 // import Content from './components/Content'
 // import ControlledForm from './components/ControlledForm';
@@ -34,7 +35,7 @@ function App() {
   return (
     <div className={css.App}>
     {/* Add your components here */}
-      {/* <Sidebar /> */}
+      <Sidebar />
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="Mike"/> */}
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
@@ -45,7 +46,7 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      {/* <NavBarForm /> */}
+      <NavBarForm />
       {/* <RenderingLists /> */}
       {/* <Content /> */}
       {/* <Clock /> */}
@@ -62,7 +63,8 @@ function App() {
       {/* <UseStateWithObjects /> */}
       {/* <ClassCounterUseEffect /> */}
       {/* <UseEffectCounter /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+      <ContentHooks />
     </div>
   );
 }

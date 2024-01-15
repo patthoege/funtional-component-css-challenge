@@ -1,4 +1,5 @@
 import css from './App.module.css';
+import HTTPRequests from './components/HTTPRequests';
 // import ClassCounterUseEffect from "./components/ClassCounterUseEffect";
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
@@ -10,7 +11,7 @@ import css from './App.module.css';
 // import SearchBar from './components/SearchBar';
 // import EventClass from './components/EventClass';
 // import EventsFunctional from './components/EventsFunctional';
-import Sidebar from './components/Sidebar';
+// import Sidebar from './components/Sidebar';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
@@ -19,8 +20,8 @@ import Sidebar from './components/Sidebar';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-import NavBarForm from "./components/NavBarForm"
-import ContentHooks from './components/ContentHooks';
+// import NavBarForm from "./components/NavBarForm"
+// import ContentHooks from './components/ContentHooks';
 // import RenderingLists from './components/RenderingLists';
 // import Content from './components/Content'
 // import ControlledForm from './components/ControlledForm';
@@ -35,7 +36,7 @@ function App() {
   return (
     <div className={css.App}>
     {/* Add your components here */}
-      <Sidebar />
+      {/* <Sidebar /> */}
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="Mike"/> */}
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
@@ -46,7 +47,7 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      <NavBarForm />
+      {/* <NavBarForm /> */}
       {/* <RenderingLists /> */}
       {/* <Content /> */}
       {/* <Clock /> */}
@@ -64,7 +65,8 @@ function App() {
       {/* <ClassCounterUseEffect /> */}
       {/* <UseEffectCounter /> */}
       {/* <UseEffectCounterContainer /> */}
-      <ContentHooks />
+      {/* <ContentHooks /> */}
+      <HTTPRequests />
     </div>
   );
 }
